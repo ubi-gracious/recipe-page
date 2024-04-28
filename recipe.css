@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+    
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%,32%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%,90%);
+    --Light-Grey: hsl(30,18%,87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+
+    --Outfit: 'Outfit';
+    --Young-serif: 'Young-serif';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Eggshell);
+}
+
+.container{
+    width: 50%;
+    background-color: white;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header h1{
+    font-family: var(--Young-serif);
+    color: var(--Dark-Charcoal);
+    font-weight: 400;
+    font-size: 2.2em;
+}
+
+.header p,
+.nutrition p{
+    font-family: var(--Outfit);
+    font-size: 16px;
+    color: var(--Wenge-Brown);
+}
+
+.prep-list{
+    background-color: var(--Rose-White);
+    padding: 5px 15px 5px;
+}
+
+.prep-list h3{
+    font-family: var(--Outfit);
+    color: var(--Dark-Raspberry);
+    font-size: 16px;
+}
+
+.prep-list li::marker{
+    color: var(--Dark-Raspberry);
+}
+
+span{
+    color: var(--Wenge-Brown);
+    font-weight: 800;
+}
+
+li{
+    font-family: var(--Outfit);
+    color: var(--Wenge-Brown);
+    margin-bottom: 10px;
+}
+
+.ing-list h2,
+.instructions h1,
+.nutrition h1{
+    font-family: var(--Young-serif);
+    color: var(--Nutmeg);
+}
+
+.ing-list li::marker,
+.instructions li::marker{
+    color: var(--Nutmeg);
+}
+
+hr{
+    color: var(--Wenge-Brown);
+}
+
+.table-text{
+    display: flex;
+    align-items: center;
+    font-family: var(--Outfit);
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.table-text p{
+    font-family: var(--Outfit);
+    font-size: 16px;
+    color: var(--Wenge-Brown);
+}
+
+.add-text{
+    color: var(--Nutmeg);
+    font-weight: 800;
+    width: 50%;
+}
+
+.move1{
+    margin-left: 300px;
+}
+
+.move2{
+    margin-left: 315px;
+}
+
+.move3{
+    margin-left: 305px;
+}
+
+.move4{
+    margin-left: 330px;
+}
